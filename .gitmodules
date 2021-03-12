@@ -1,0 +1,6 @@
+[submodule "software"]
+	path = software
+	url = https://github.com/glassboard-dev/gl-rpi-led-controller-software.git
+[submodule "hardware"]
+	path = hardware
+	url = https://github.com/glassboard-dev/gl-rpi-led-controller-hardware.git
