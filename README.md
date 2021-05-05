@@ -10,3 +10,9 @@
 * LEDs 30/m/3m x48 : [WS2812B](https://www.amazon.com/Aclorol-Individually-Addressable-Programmable-Non-Waterproof/dp/B07BGSZLGX)
 * Custom Power & Breakout PCB x6 : [Controller Hardware](https://github.com/glassboard-dev/gl-rpi-led-controller-hardware/tree/2ab05d9f7b06ac152dadaf971d9b6c25116d70ea)
 * Target Project Budget : $2,000
+
+## Initial Testing Results
+* All White Max Brightness: 30V @ 5.5A = 165W
+* Highest Temperature: 85C (LED power supply inductor)
+* Voltage ripple @ 165W: ~300mV
+* Max system power: 165W * 6 = 990W
